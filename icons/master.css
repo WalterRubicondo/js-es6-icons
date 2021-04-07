@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(41, 177, 221);
+}
+
+div .nav {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(41, 177, 221);
+  color: rgb(255, 255, 255);
+  height: 50px;
+  width: 100%;
+}
+
+div .main {
+    background-color: rgb(221, 221, 221);
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+div.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+      box-shadow: rgb(0 0 0 / 100%) 0px 0px 4px 0px, rgb(0 0 0 / 8%) 0px 8px 16px 0px;
+      height: 100px;
+      width: 200px;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+      margin: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+      flex-direction: column;
+}
+
+i {
+  font-size: 30px;
+  padding: 5px;
+}
+
+
+.user {
+  color: purple;
+}
+
+.animal {
+  color: blue;
+}
+
+.vegetable {
+  color: orange;
+}
+
+.text {
+  color: rgb(0, 0, 0);
+}
